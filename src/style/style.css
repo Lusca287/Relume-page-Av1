@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    background: none;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    padding-left: 64px;
+    padding-right: 64px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-img{
+    position: relative;
+    margin-right: 200px;
+}
+
+header > button {
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+    font-size: 1rem;
+    align-items: center;
+}
+
+nav > a{
+    color: black;
+}
+
+.nav-btn > p{
+    font-size: 1rem;
+}
+
+.nav-btn{
+    display: flex;
+    align-items: center;
+}
+
+
+/* Hero Header */
+
+.hero-header{
+    display: flex;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-header > h1 {
+    font-size: 56px;
+    width: 45%;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hero-header > p{
+    font-size: 18px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn-wrapper{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.btn-wrapper > button {
+    border: 1px solid black;
+    padding: 12px 24px;
+}
+
+.hero-btn-one{
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    padding: 64px 80px;
+}
+
+.footer-links{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.links-footer{
+    display: flex;
+    gap: 32px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.links-footer > a{
+    color: black;
+}
+
+.redes{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.footer-politicas{
+    width: auto;
+    height: 53px;
+    border-top: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 24px;
+
+}
+
+.footer-politicas > a{
+    color: black;
+    text-decoration: underline;
+}
